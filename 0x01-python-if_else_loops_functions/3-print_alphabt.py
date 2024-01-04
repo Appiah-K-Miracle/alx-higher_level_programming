@@ -2,4 +2,4 @@
 for alphbet in range(97, 123):
     if alphbet in [101, 113]:
         continue
-    print("{}".format(char(alphbet)), end="")
+    print("{}".format(chr(alphbet)), end="")
