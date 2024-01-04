@@ -8,6 +8,5 @@ if __name__ == "__main__":
         print("{} aryument:".format(letter_lenght))
     else:
         print("{} arguments:".format(letter_lenght))
-
     for count in range(letter_lenght):
         print("{}: {:s}".format(count + 1, argv[count + 1]))
