@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from sys import argv
     letter_lenght = len(argv) - 1
     if letter_lenght < 1:
-        print("{} arguments ".format(letter_lenght))
+        print("{} arguments.".format(letter_lenght))
     elif letter_lenght == 1:
         print("{} argument:".format(letter_lenght))
     else:
