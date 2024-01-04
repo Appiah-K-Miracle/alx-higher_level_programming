@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if letter_lenght < 1:
         print("{} arguments ".format(letter_lenght))
     elif letter_lenght == 1:
-        print("{} aryument:".format(letter_lenght))
+        print("{} argument:".format(letter_lenght))
     else:
         print("{} arguments:".format(letter_lenght))
     for count in range(letter_lenght):
